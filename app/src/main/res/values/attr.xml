@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundedHorizontalProgressBar">
+        <attr name="progress" format="integer"/>
+        <attr name="progressBackgroundColor" format="color"/>
+        <attr name="progressColor" format="color"/>
+        <attr name="animationDurationInMillis" format="integer"/>
+        <attr name="compensateWhenProgressIsLow" format="boolean"/>
+    </declare-styleable>
+</resources>
