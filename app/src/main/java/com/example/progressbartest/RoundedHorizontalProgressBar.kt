@@ -61,7 +61,7 @@ class RoundedHorizontalProgressBar @JvmOverloads constructor(
         progressPaint.isAntiAlias = true
         progressPaint.strokeWidth = 20f
 
-        setProgress(progress)
+        setProgress(progress, false)
     }
 
     override fun onDraw(canvas: Canvas?) {
